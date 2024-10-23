@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.8.2">
+  <diagram name="Страница — 1" id="QMyXod5N3E93nL1uFh0U">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Steam Platform" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="254" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Functional Components" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="107" width="228" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Non-functional Components" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="341" y="402" width="259" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Game Library" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="731" y="8" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Storefront" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="743" y="107" width="133" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Community Hub" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="722" y="205" width="174" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Scalability" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="742" y="304" width="134" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Security" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="750" y="402" width="118" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Performance" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="733" y="501" width="152" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Декомпозиция" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0.01;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Декомпозиция" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Модуль 1" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=-0.01;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="32" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Модуль 2" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Модуль 3" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0.98;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="229" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Модуль 4" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0.01;entryX=0;entryY=0.49;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Модуль 5" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Модуль 6" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
